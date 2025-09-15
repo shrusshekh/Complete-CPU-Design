@@ -1,16 +1,19 @@
 # COE608 Lab 6 – Complete CPU Design with ALU and Control Unit
 
-This project was developed as part of the **COE608 – Computer Organization & Architecture** course at **Toronto Metropolitan University**, aiming to design, simulate, and implement a **basic CPU** using VHDL and Quartus 16.0. 
+**Toronto Metropolitan University**  
+**Course:** COE528 – Computer Organization & Architecture
+**Project Duration:** 4 Weeks  
+**Individual Project**
 
 ---
 
-## 🧠 Project Summary
+## Project Summary
 
 The CPU includes a fully functional **Arithmetic Logic Unit (ALU)**, a **Control Unit** based on a Finite State Machine (FSM), and memory components. The system is capable of executing basic arithmetic and logical operations, driven by opcode inputs generated through a decoder linked to the FSM states. The output is displayed via waveform simulation (both timing and functional waveform simulations). 
 
 ---
 
-## 🔧 Key Components
+## Key Components
 
 - **ALU Core** (`alu.vhd`)  
   Supports multiple operations including addition, subtraction, bitwise logic, shifting, and conditional functions based on opcode.
@@ -30,7 +33,7 @@ The CPU includes a fully functional **Arithmetic Logic Unit (ALU)**, a **Control
 
 ---
 
-## 🧪 Simulation
+## Simulation
 
 - Waveform testbench: `CPU_TEST_Sim.vwf`
 - Simulation performed in Quartus Prime Waveform Editor
